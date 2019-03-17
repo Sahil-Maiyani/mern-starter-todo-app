@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.js" target="_blank">
+            <a className="navbar-brand" href="index.js" target="_blank">
               <img src={logo} width="50" height="50" alt="Mern-ToDo" />
             </a>
             <Link to="/" className="navbar-brand">My ToDo</Link>
