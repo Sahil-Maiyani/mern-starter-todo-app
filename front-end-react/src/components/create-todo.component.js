@@ -8,7 +8,7 @@ export default class CreateTodo extends Component {
 
         this.state = {
             todo_description: '',
-            todo_responsible: 'self',
+            todo_responsible: '',
             todo_priority: '',
             todo_completed: false
         }
